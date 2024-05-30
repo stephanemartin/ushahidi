@@ -30,6 +30,8 @@ trap 'quit=1;run-parts -a stop /etc/rc2.d' INT TERM EXIT
 #For regular console usage, SSH is recommended.
 #EOF
 
+echo
+echo Ushahidi is ready ...
 quit=0
 while [ "$quit" -ne 1 ]; do
     sleep 1
